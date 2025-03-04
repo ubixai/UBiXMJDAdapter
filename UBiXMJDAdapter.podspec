@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiXMJDAdapter'
-  s.version          = '2.6.8.1'
+  s.version          = '2.4.6.0'
   s.summary          = 'UBiX聚合广告变现SDK JD Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
  
   
-s.dependency 'JADYun', '2.6.8'
- s.dependency 'JADYunMotion', '2.6.8'
+ s.dependency 'JADYun', '2.4.6'
  s.dependency 'UBiXMediationSDK'
  s.swift_version = '5.0'
 
